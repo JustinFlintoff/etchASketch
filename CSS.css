@@ -1,15 +1,118 @@
+h1 {
+	display: inline-block;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+
+p {
+	margin-top: 0px;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
 body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	text-align: center;
+	background-color: #474747;
+	font-family: arial;
+
 }
 
 #house {
-	height: 40vw;
-	width: 40vw;
-	background-color: green;
+	height: 500px;
+	width: 500px;
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto; 
 	padding: 0px;
+	border: solid 2px white;
+	display: inline-block;
+}
+
+#houseLeft {
+	display: inline-block;
+	height: 500px;
+	width: 50px;
+	margin: 0px;
+	background-color: #474747;
+	position: relative;
+}
+
+#houseRight {
+	display: inline-block;
+	height: 500px;
+	width: 50px;
+	margin: 0px;
+	background-color: #474747;
+	position: relative;
+}
+
+tr, tbody, table, td {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	border: none;
+	border-collapse: collapse;
+
+}
+
+.tablePixels {
+	margin: 0px;
+	padding: 0px;
+	background-color: white	;
+	top: 0;
+}
+
+.buttonDiv {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+}
+
+#white {
+	background-color: white;
+	height: 50px;
+	width: 50px;
+}
+
+#black {
+	background-color: black;
+}
+
+#grey {
+	background-color: grey;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#red {
+	background-color: red;
+}
+
+#green {
+	background-color: green;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#blackBG {
+	background-color: black;
+}
+
+#whiteBG {
+	background-color: white;
+}
+
+#greyBG {
+	background-color: grey;
 }
