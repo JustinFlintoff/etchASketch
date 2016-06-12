@@ -24,7 +24,7 @@ $( document ).ready(function() {
 			alert("Hey! If your input is above 100 or below 1, it won't work!");
 		}
 		// If the number is valid it will cruis on through here and make some divs and set there styles
-		else{
+		else{                
 			// a while loop that should run the amount of times inputed by the user squared
 			while ( forTheLoop < userGridSize ) {
 				// adds an empty row to the house each time it loops
